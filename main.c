@@ -19,7 +19,7 @@ int main() {
 
 	List l = create();
 
-	readWholeFile(f, &l);
+	readNewFile(&l);
 
 
 	printWelcomeLine();
