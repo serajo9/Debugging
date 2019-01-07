@@ -171,7 +171,7 @@ char * readString(FILE * file) {
 	int i = 0;
 	int size = 10;
 	char tmp;
-	char* ret = (char*) malloc(sizeof(char) * size);
+	char* ret = (char*) malloc(sizeof(char) * 40);
 
 
 	fscanf(file, "%c", &tmp);
